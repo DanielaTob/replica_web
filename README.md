@@ -2,16 +2,16 @@
 
 Mi réplica web es una landing page informativa previamente diseñada. Se llevó a cabo bajo la metodologia ágil, a partir de un sprint de 3 días hábiles utilizando la herramienta Jira para la gestón de las historias de usuario.
 
-## Lista de tecnologías utilizadasen el proyecto: 
+## :pushpin: Lista de tecnologías utilizadasen el proyecto: 
 
 -HTML 
 -CSS
 
-##Link del proyecto desplegado: 
+## :paperclip: Link del proyecto desplegado: 
 
 https://danielatob.github.io/replica_web/
 
-##Product backlog: 
+## :open_file_folder: Product backlog: 
 
 https://danielatobar.atlassian.net/jira/software/projects/PB/boards/1/roadmap?shared=&atlOrigin=eyJpIjoiYzIxOTcwYmFhZDE1NGViNDk3MWFjNDg3MjI0ZDJkZGMiLCJwIjoiaiJ9 
 
