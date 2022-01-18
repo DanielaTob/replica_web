@@ -1,6 +1,6 @@
 # Réplica web 
 
-Mi réplica web es una landing page informativa previamente diseñada. Se llevó a cabo bajo la metodologia ágil, a partir de un sprint de 3 días hábiles utilizando la herramienta Jira para la gestión de las historias de usuario.
+Mi réplica web es una landing page informativa previamente diseñada. Se llevó a cabo bajo la metodologia ágil (scrum), a partir de un sprint de 3 días hábiles utilizando la herramienta Jira para la gestión de las historias de usuario.
 
 ## :pushpin: Lista de tecnologías utilizadas en el proyecto: 
 
