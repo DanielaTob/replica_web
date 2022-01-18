@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réplica web</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+
+</head>
+<body>
+
+<!-- Navbar --> 
+
+    <header>
+
+        <nav class="navbar">
+            <label class="logo"> Mi réplica web </label>
+            <div class="contenedor_nav">
+                <ul class="menu_items"> 
+                    <li><a href="#inicio" class="item">Inicio</a></li>
+                    <li><a href="#notas" class="item">Notas</a></li>
+                    <li><a href="#aprendizaje" class="item">Aprendizaje</a></li>
+                </ul>
+
+                <button onclick="location.href= 'https://educamas.com.co/contacto/'" class="btn_feedback"><i class="icon bi bi-chat-text-fill"></i>Enviar Feedback</button>
+            </div>
+        </nav>
+      
+    </header>
+
+<!-- Inicio --> 
+
+    <section class="inicio" id="inicio">
+
+            <div>
+                <h1 class="inicio__title">¡Muéstranos <br> tu talento programando!</h1>
+                <p class="inicio__subtitle">Esta es tu oportunidad para que nos deslumbres y <br> nos hagas sentir orgullosos de lo que puedes hacer una semana después!</p>
+            </div>
+
+            <div class="content_right">
+                <img class="celular_inicio" src="img/celular.png" alt="" class="inicio__img">
+                <img class="circle" src="img/Ellipse 1.png">
+                <video class="video_inicio" id="background-video" autoplay loop muted>
+                    <source src="video/demo-pantala.mp4" type="video/mp4">
+                </video>
+
+                <div class="componentes">
+                    <img class="img1" src="img/Ellipse-small.png">
+                    <img class="img2" src="img/x.png">
+                </div>
+            </div>
+
+    </section>
+    
+    
+<!-- Notas-->
+
+    <div class="fondo" id="notas">
+        <div>
+            <h2 class="notas__title">Y toma nota... <br> De lo que seguirás <br> aprendiendo. </h2>
+            <button onclick="location.href= 'https://educamas.com.co/programate/'" class="btn_notas">Prográmate Educamás</button>
+        </div>
+    </div>
+
+<!-- Aprendizaje-->
+
+<section id="aprendizaje">
+
+    <div class="aprendizaje">
+        <div class="contentedor_left">
+            <img class="celular_aprendizaje" src="img/celular.png" alt="" class="inicio__img">
+            <img class="circle_aprendizaje" src="img/Ellipse 1.png">
+            <video class="video_aprendizaje" id="background-video" autoplay loop muted>
+                <source src="video/demo-pantala.mp4" type="video/mp4">
+            </video>
+
+            <div class="componentes_aprendizaje">
+                <img class="img1" src="img/x.png">
+                <img class="img2" src="img/Ellipse-small.png">
+            </div>
+        </div>
+
+        <div class="contenedor_right">
+                <div class="phone">
+                    <i class="icono_aprendizaje bi bi-phone"></i>
+                    <h2 class="title_aprendizaje">Hacer páginas<br> responsive </h2>
+                    <p class="subtitle_aprendizaje">Aprenderás a crear páginas<br> 
+                    ajustables a los diferentes tamaños<br> 
+                    de los dispositivos.</p>
+                </div>
+
+                <div>   
+                    <i class="icono_aprendizaje bi bi-window"></i>
+                    <h2 class="title_aprendizaje">Frameworks</h2>
+                    <p class="subtitle_aprendizaje">Aprenderás la utilidad de los<br> 
+                    frameworks y cómo utilizarlos.</p>
+                </div>
+
+                <div>
+                    <i class="icono_aprendizaje bi bi-briefcase"></i>
+                    <h2 class="title_aprendizaje">Crear tu portafolio</h2>
+                    <p class="subtitle_aprendizaje">Aprenderás a hacer un portafolio<br> 
+                    atractivo y profesional.</p>
+                </div>
+
+                <div>
+                    <i class="icono_aprendizaje bi bi-patch-check"></i>
+                    <h2 class="title_aprendizaje">Desarrollador<br> Fullstack</h2>
+                    <p class="subtitle_aprendizaje">Y al final serás un excelente<br> 
+                    desarrollador Fullstack.</p>
+                </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer_web">
+            <p class="parrafo1">© Prográmate 2022.</p>
+            <p class="parrafo2">Términos - Condiciones - Educamás</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
