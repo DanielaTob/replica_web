@@ -19,5 +19,4 @@ https://danielatobar.atlassian.net/jira/software/projects/PB/boards/1/roadmap?sh
 
 https://www.figma.com/file/mUYgLwrGMMnSJ593Dbk7Ze/Mockup?node-id=0%3A1
 
-:smile_cat:
-[![desktop.png](https://i.postimg.cc/wjfjt8W5/desktop.png)](https://postimg.cc/DSGTDD3m)
+
